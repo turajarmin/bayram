@@ -1,0 +1,42 @@
+div.cup{
+    width: 100%;
+    background-color: grey;
+}
+div.cup>div.child{
+    width: 100%;
+    background-color: grey;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    box-sizing: border-box;
+}
+div.cup>div.child>div.item{
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+}
+div.cup>div.child>div.item>div:nth-of-type(1){
+    margin-bottom: 5px;
+}
+div.cup>div.child>div.item>div:nth-of-type(1)>svg{
+    width: 50px;
+}
+div.cup>div.child>div.item>div:nth-of-type(2){
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+div.cup>div.child>div.item>div:nth-of-type(2)>h2{
+    font-size: 15px;
+    font-family: Yekan;
+    color: goldenrod;
+}
+div.cup>div.child>div.item>div:nth-of-type(3){
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 5px;
+}
+div.cup>div.child>div.item>div:nth-of-type(3)>h2{
+    font-size: 14px;
+    font-family: Yekan;
+}

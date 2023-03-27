@@ -1,0 +1,33 @@
+div.menu{
+    width: 100%;
+    height: 40px;
+    background-color: #4b4b4b;
+}
+div.menu>nav{
+    width: inherit;
+    height: inherit;
+}
+div.menu>nav>ul{
+    width: inherit;
+    height: inherit;
+    list-style: none;
+    padding-right: 20px;
+    box-sizing: border-box;
+}
+div.menu>nav>ul>li{
+    width: auto;
+    height: inherit;
+    float: right;
+}
+div.menu>nav>ul>li>a{
+    display: block;
+    width: auto;
+    height: inherit;
+    text-decoration: none;
+    line-height: 40px;
+    margin-right: 1px;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Yekan;
+    color: whitesmoke;
+}
